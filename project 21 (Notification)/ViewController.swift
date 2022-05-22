@@ -73,7 +73,7 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
                 switch response.actionIdentifier {
                 case UNNotificationDefaultActionIdentifier:
                     // the user swiped to unlock
-                    let ac = UIAlertController(title: "Are you shure?", message: "", preferredStyle: .actionSheet)
+                    let ac = UIAlertController(title: "Are you sure?", message: "", preferredStyle: .actionSheet)
                     let action = UIAlertAction(title: "Ok", style: .default, handler: nil)
                     ac.addAction(action)
                     present(ac, animated: true)
